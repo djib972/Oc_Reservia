@@ -1,9 +1,19 @@
 h1 
 {
-	background: #F2F2F2;
+	background:#F2F2F2;
     font-family: Raleway; 
 }
-aside
+ul
 {
-	float: right;
+	justify-content: space-between;
+}
+footer
+{
+	background-attachment: fixed;
+	background: #F2F2F2;
+}
+#footerContent {
+	display: flex;
+	justify-content: space-around;
+
 }
