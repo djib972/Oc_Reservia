@@ -9,11 +9,16 @@ a
 	color: inherit;
 	text-decoration: none;
 }
+.tr 
+{
+	border: 10px solid grey;
+	border-radius: 30px;
+}
 .header
 {
 	display: grid;
 	align-items: center;
-	max-width: 1445px;
+	max-width: 1440px;
 	margin: auto;
 }
 .headernav
@@ -44,12 +49,19 @@ a
 	color: #0065fc;
 	font-weight: 600;
 }
-@media screen and (min-width: 600px) {
-	.header{
+@media screen and (min-width: 601px) {
+	.header
+	{
 		grid-template-columns: auto 1fr auto auto; 
 		grid-template-areas: "logo. navbar button"; 
 	}
-.headernavlink
+.headernavlink 
+{
+border-top: none;
+border-bottom: 3px solid #f2f2f2;
+width: 50%;
+}
+
 
 aside
 {
@@ -57,29 +69,35 @@ aside
 }
 .footer
 {
-	background: #F2F2F2;
+	background-color: #F2F2F2;
+	width: 100%;
 }
 .footercolumnwrapper
 {
 	display: flex;
 	max-width: 100%;
-	width: 1450px;
+	width: 1440px;
 	margin: auto;
 	padding: 0 2rem;
 	box-sizing: border-box;
-}
-.footercolumnwrapperlink
-{
-	display: block;
-	margin: 1rem 0;
 }
 .footercolumnwrappercolumn
 {
 	width: 30%;
 	padding: 2rem 2rem;
 }
+.footercolumnwrapperlink
+{
+	display: block;
+	margin: 1rem 0;
+}
+.footercolumnwrappercolumnlink:hover
+{
+	text-decoration: underline;
 
-@media (max-width: 800px) {
+}
+
+@media (max-width: 750px) {
 .footercolumnwrapper
 {
 	flex-direction: column;
