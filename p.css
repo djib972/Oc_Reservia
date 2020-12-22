@@ -9,18 +9,21 @@ a
 	color: black;
 	text-decoration:none;
 }
-.tr 
-{
-	border: 10px solid grey;
-	border-radius: 30px;
-}
+
+/*Header*/
+
+
 .header
 {
 	display: flex;
 	justify-content: flex-end;
 	margin-top: 2em;
 }
-.headernav
+.headerlogo
+{
+	height: 2em;
+	margin-right: auto;
+}
 {
 	display: flex;
 	align-items: center;
