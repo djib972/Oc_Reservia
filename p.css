@@ -24,11 +24,7 @@ a
 	height: 3em;
 	margin-right: auto;
 }
-{
-	display: flex;
-	align-items: center;
-	grid-area: navbar;
-}
+
 .headernavlink
 {
 	padding: 2rem;
