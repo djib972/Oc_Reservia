@@ -63,7 +63,7 @@ a
 .searchicon
 {
 	background-color: #f2f2f2;
-	padding: 2em;
+	padding: 1em;
 	border-radius: 1em 0 0 1em; 
 } 
 .searchinput 
@@ -93,12 +93,12 @@ a
 	font-size: 1em;
 	font-family: "raleway", sans-serif;
 	background-color: #0065FC;
-	color: #f2f2f2; 
+	color: white; 
 	font-weight: bold;
 	border: none;
 	border-radius: 0 1em 1em 0;
 	padding: 0 1.5em;
-	
+
 }
 
 .headersignup
