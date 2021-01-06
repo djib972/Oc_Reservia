@@ -80,7 +80,7 @@ a
 	box-sizing: border-box;
 }
 
-.searchinput:placeholder-shown
+.searchinput:placeholder
 {
 	font-family: "raleway", sans-serif;
 	font-size: 1em;
