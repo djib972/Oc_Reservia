@@ -28,7 +28,7 @@ a
 }
 .headerlogo
 {
-	height: 2em;
+	height: 3em;
 	margin-right: auto;
 }
 
@@ -112,61 +112,3 @@ a
 }
 
 
-.footer
-{
-	background-color: #F2F2F2;
-	width: 100%;
-}
-.footercolumnwrapper
-{
-	display: flex;
-	max-width: 100%;
-	width: 1440px;
-	margin: auto;
-	padding: 0 2rem;
-	box-sizing: border-box;
-}
-.footercolumnwrappercolumn
-{
-	width: 30%;
-	padding: 2rem 2rem;
-}
-.footercolumnwrapperlink
-{
-	display: block;
-	margin: 1rem 0;
-}
-.footercolumnwrappercolumnlink:hover
-{
-	text-decoration: underline;
-
-}
-
-@media (max-width: 750px) {
-.footercolumnwrapper
-{
-	flex-direction: column;
-	padding: 2rem;
-}
-.footercolumnwrappercolumn
-{
-	width: 100%;
-	padding: 0%;
-	margin: 1rem 0;
-}
-.footercolumnwrappercolumn:first-child
-{
-	margin-top: 0;
-}
-.footercolumnwrappercolumn:last-child
-{
-	margin-bottom: 0;
-}
-.footercolumnwrappercolumntitle
-{
-	margin: 0;
-}
-.footercolumnwrappercolumnlink:last-child
-{
-	margin-bottom: 0;
-}
