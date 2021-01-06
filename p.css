@@ -170,6 +170,8 @@ a
 .filterinfotext
 {
 	display: flex;
-	margin: 0 1em;
+	margin-left: 0.5em;
+	margin-left: 1em;
+	align-self: center;
 }
 
