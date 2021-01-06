@@ -53,8 +53,20 @@ a
 }
 .searchparagraph
 {
-	margin-bottom: auto;
+	margin-bottom: 1em;
 }
+.searchform
+{
+	display: inline-flex; 
+
+}
+.searchicon
+{
+	background-color: #f2f2f2;
+	padding: 2em;
+	border-radius: 1em 0 0 1em;
+}
+
 .headersignup
 {
 	display: flex;
