@@ -8,6 +8,15 @@ a
 {
 	color: black;
 	text-decoration:none;
+})=
+/* balise fa-color*/
+.fa-color 
+{
+	color: #0065fc; 
+}
+.fa-nocolor
+{
+	color:#f2f2f2
 }
 
 /*Header*/
@@ -39,7 +48,7 @@ a
 }
 
 /* S'inscrire*/
-.headernavitem:nth-child(4) 
+.headernavitem :nth-child(4)
 {
 	font-weight: bold;
 	color: #0065fc;
@@ -80,7 +89,7 @@ a
 	box-sizing: border-box;
 }
 
-.searchinput:placeholder
+.searchinput::placeholder
 {
 	font-family: "raleway", sans-serif;
 	font-size: 1em;
@@ -90,8 +99,8 @@ a
 
 .searchbutton
 {
-	font-size: 1em;
 	font-family: "raleway", sans-serif;
+	font-size: 1em;
 	background-color: #0065FC;
 	color: white; 
 	font-weight: bold;
@@ -100,39 +109,6 @@ a
 	padding: 0 1.5em;
 	cursor: pointer;
 
-}
-
-.headersignup
-{
-	display: flex;
-	align-items: center;
-	grid-area: button;
-	padding: 2rem;
-	color: #0065fc;
-	font-weight: 600;
-}
-/* balise fa-color*/
-.fa-color 
-{
-	color: #0065fc; 
-}
-.fa-nocolor
-{
-	color:#f2f2f2
-}
-
-
-@media screen and (min-width: 601px) {
-	.header
-	{
-		grid-template-columns: auto 1fr auto auto; 
-		grid-template-areas: "logo. navbar button"; 
-	}
-.headernavlink 
-{
-border-top: none;
-border-bottom: 3px solid #f2f2f2;
-width: 50%;
 }
 
 
