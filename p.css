@@ -37,6 +37,24 @@ a
 	color: #0065fc;
 	padding-top: 1em;
 }
+
+/* S'inscrire*/
+.headernavitem:nth-child(3) 
+{
+	font-weight: bold;
+	color: #0065fc;
+}
+
+/*zone rechercher*/
+.searchheader
+{
+	font-size: 1.2em;
+	margin-bottom: 1em;
+}
+.searchparagraph
+{
+	margin-bottom: auto;
+}
 .headersignup
 {
 	display: flex;
