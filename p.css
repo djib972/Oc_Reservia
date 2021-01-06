@@ -64,8 +64,22 @@ a
 {
 	background-color: #f2f2f2;
 	padding: 2em;
-	border-radius: 1em 0 0 1em;
+	border-radius: 1em 0 0 1em; 
+} 
+.searchinput 
+{
+	font-size: 1em;
+	font-weight: bold;
+	font-family: "raleway", sans-serif;
+	min-width: 10em;
+	border-right: 0; 
+	border-left: 0;
+	border-top: #f2f2f2;
+	border-bottom: #f2f2f2;
+	padding: 0 1em; 
+	box-sizing: border-box;
 }
+
 
 .headersignup
 {
