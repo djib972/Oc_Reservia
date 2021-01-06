@@ -14,7 +14,7 @@ a
 .header
 {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	margin-top: 2em;
 }
 .headerlogo
@@ -39,7 +39,7 @@ a
 }
 
 /* S'inscrire*/
-.headernavitem:nth-child(3) 
+.headernavitem:nth-child(4) 
 {
 	font-weight: bold;
 	color: #0065fc;
