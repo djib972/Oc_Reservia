@@ -135,4 +135,20 @@ a
 	cursor: pointer; 
 	font-weight: bold;
 }
+.filteritem:hover 
+{
+	transform: scale3d(1);
+
+} 
+.filtersicon
+{
+	background-color: #deebff; 
+	border-radius: 100%; 
+	height: 3em;
+	width: 3em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: -2px;
+}
 
