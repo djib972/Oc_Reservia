@@ -110,5 +110,28 @@ a
 	cursor: pointer;
 
 }
+/*Filtres*/ 
 
+.filtercontainer 
+{
+	display: flex;
+	margin-top: 2em; 
+}
+.filterheader 
+{
+	font-size: 0.8em;
+	margin-right: 1em; 
+
+} 
+.filteritem 
+{
+	display: flex;
+	align-items: center;
+	margin-right: 2em;
+	border: 3px solid #d9d9d9;
+	border-radius: 2em;
+	margin-bottom: 1em; 
+	cursor: pointer; 
+	font-weight: bold;
+}
 
