@@ -150,5 +150,10 @@ a
 	align-items: center;
 	justify-content: center;
 	margin: -2px;
+} 
+.filterinfo
+{
+	font-size: 1em;
+	display: flex;
 }
 
