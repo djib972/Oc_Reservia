@@ -175,3 +175,15 @@ a
 	align-self: center;
 }
 
+.filteritemtext 
+{
+	display: flex;
+	margin: 0 1em;
+}
+
+/*hebergement à marseille*/ 
+.hostingmain
+{
+	display: grid;
+	
+}
