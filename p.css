@@ -188,3 +188,13 @@ a
 	border-radius: 1.5em;
 	padding: 2em;
 }
+.hostingpopular 
+{
+	background-color: #f2f2f2;
+	border-radius: 1.5em;
+	padding: 2em;
+}
+.hostingmain
+{
+display: grid;
+}
