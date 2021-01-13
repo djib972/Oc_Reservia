@@ -204,4 +204,29 @@ display: grid;
 column-gap: 2em;
 row-gap: 2em;
 grid-template-columns: repeat(3, 1fr);
+} 
+/* Hotels */ 
+.hostingheader 
+{
+grid-column: auto;
+} 
+.hostingheadertitle 
+{
+margin: 0;
+} 
+.hostingcardfigureimage 
+{
+    height: auto;
+    object-fit: cover;
+    object-position: center bottom;
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    border-radius: 1em 1em 0 0;
+} 
+/* texte dans les cartes */ 
+
+.hostingcardfiguretext 
+{
+	margin: 0.2em 0.7em 0 0.7em;
 }
