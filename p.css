@@ -216,7 +216,7 @@ margin: 0;
 } 
 .hostingcardfigureimage 
 {
-    height: auto;
+    height: 6em;
     object-fit: cover;
     object-position: center bottom;
     max-width: 100%;
@@ -229,4 +229,8 @@ margin: 0;
 .hostingcardfiguretext 
 {
 	margin: 0.2em 0.7em 0 0.7em;
+}
+.hostingcarddescription
+{
+	margin: 0.2em  0.7em 0.2em 0.7em;
 }
