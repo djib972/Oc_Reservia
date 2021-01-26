@@ -267,19 +267,19 @@ margin: 0;
 {
 	display: flex;
 	flex-direction: column;
-	width: 40%;
+	width: 35%;
 }
 
-.hosting
+.noshebergements
 {
 display: flex;
 flex-direction: column;
-width: 40%;
+width: 35%;
 }
 
 .assistance
 {
 	display: flex;
 	flex-direction: column;
-	width: 40%
+	width: 35%
 }
