@@ -255,8 +255,53 @@ margin: 0;
 	column-gap: 2em;
 }
 
+.activitescard
+{
+	display: flex;
+	flex-direction: column;
+	border-radius: 1em;
+	box-shadow: 0 0 12px; 
+	height: 100%;
+	width: 100%;
+}
+
+.activitescardimg
+{
+	border-radius: 1em 1em 0 0;
+	height: 80%;
+	width: 100%;
+}
+
+.vieuxportimggrd
+{
+	height: 90%;
+}
+
+.pomeguesimg
+{
+	height: 65%;
+}
+
+.Frioulimg
+{
+	height: 55%;
+}
+
+.activitescardcaption
+{
+	border-radius: 0 0 1em 1em; 
+	padding-left: 1em;
+	font-weight: bold;
+}
 
 
+/*Lignes et colonnes entre les images*/ 
+
+#img1 
+{
+	grid-column: auto;
+	grid-row: auto;
+}
 
 
 
