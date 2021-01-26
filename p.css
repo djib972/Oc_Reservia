@@ -263,4 +263,23 @@ margin: 0;
 	justify-content: space-between;
 }
 
-.A propos 
+.apropos 
+{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+}
+
+.hosting
+{
+display: flex;
+flex-direction: column;
+width: 40%;
+}
+
+.assistance
+{
+	display: flex;
+	flex-direction: column;
+	width: 40%
+}
