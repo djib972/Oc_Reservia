@@ -1,16 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=raleway:wght@300;400;500;600;700;800;900&display=swap");
+
 body
 {
-font-family: Raleway, "sans serif";
+font-family: 'Raleway', "sans serif";
 margin: 0 2em;
 }
 a
 {
 	color: black;
-	text-decoration:none;
+	text-decoration: none;
 }
 
-/* balise fa-color*/
+/* balise fa-color pour changement couleur*/
 .fa-color 
 {
 	color: #0065fc; 
@@ -191,7 +191,8 @@ a
 }
 
 .hosting
-{display: grid;
+{
+	display: grid;
 	column-gap: 2em;
 	grid-template-columns: 2fr 1fr;
 	margin-top: 2em;
@@ -205,15 +206,35 @@ column-gap: 2em;
 row-gap: 2em;
 grid-template-columns: repeat(3, 1fr);
 } 
+
 /* Hotels */ 
 .hostingheader 
 {
-grid-column: auto;
+grid-column: 1/-1;
 } 
 .hostingheadertitle 
 {
 margin: 0;
 } 
+
+.hostingcard
+{
+background-color: #fff;
+padding: 0,375em;
+border-radius: 1,25em;
+box-sizing: border-box;
+height: 100%;
+}
+.hostingcard:hover 
+{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hostingcardfigure
+{
+	margin: 0;
+}
+
 .hostingcardfigureimage 
 {
     height: 6em;
@@ -243,6 +264,55 @@ margin: 0;
 	font-weight: bold;
 }
 
+/*Les plus populaires*/
+
+.hostingpopular
+{
+	display: grid;
+	row-gap: 2em;
+	align-items: start;
+	grid-template-rows: auto;
+}
+
+.hostingpopulartitle
+{
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.hostingpopularwrap
+{
+	display: flex;
+	align-items: stretch;
+	height: 100%;
+	overflow: auto;
+}
+
+.hostingpopularwrapimg
+{
+	position: relative;
+	min-height: 100%;
+	width: 33%;
+	min-width: 33%;
+	max-width: 33%;
+}
+
+.hostingpopularcardimg
+{
+	border-radius: 1em 0 0 1em;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.popularwrapcontent
+{
+	display: flex;
+	flex-direction: column;
+}
+
 /*Activites*/ 
 
 .sectionactivites
@@ -255,20 +325,27 @@ margin: 0;
 	column-gap: 2em;
 }
 
+.activitesheader
+{
+	grid-column: 1/-1;
+	box-sizing: border-box;
+}
+
 .activitescard
 {
 	display: flex;
 	flex-direction: column;
 	border-radius: 1em;
-	box-shadow: 0 0 12px; 
+	box-shadow: 0 0 10px; 
 	height: 100%;
 	width: 100%;
 }
 
 .activitescardimg
 {
+	object-fit: cover;
 	border-radius: 1em 1em 0 0;
-	height: 80%;
+	height: 75%;
 	width: 100%;
 }
 
@@ -279,12 +356,12 @@ margin: 0;
 
 .pomeguesimg
 {
-	height: 65%;
+	height: 80%;
 }
 
 .Frioulimg
 {
-	height: 55%;
+	height: 70%;
 }
 
 .activitescardcaption
@@ -299,11 +376,40 @@ margin: 0;
 
 #img1 
 {
-	grid-column: auto;
-	grid-row: auto;
+	grid-column: 1/2;
+	grid-row: 2/8;
 }
 
+#img2
+{
+	grid-column: 2/3;
+	grid-row: 2/6;
+}
 
+#img3
+{
+	grid-column: 2/3;
+	grid-row: 6/8;
+}
+
+#img4
+{
+	grid-column: 3/4;
+	grid-row: 2/8;
+}
+
+#img5
+{
+	grid-column: 4/5;
+	grid-row: 2/5;
+
+}
+
+#img6
+{
+	grid-column: 4/5;
+	grid-row: 5/8;
+}
 
 
 
