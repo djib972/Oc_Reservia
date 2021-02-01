@@ -6,8 +6,9 @@ margin: 0 2em;
 }
 a
 {
-	color: black;
 	text-decoration: none;
+	color: black;
+	
 }
 
 /* balise fa-color pour changement couleur*/
@@ -80,7 +81,7 @@ a
 {
 	font-size: 1em;
 	font-weight: bold;
-	font-family: "raleway", sans-serif;
+	font-family: "Raleway", sans-serif;
 	min-width: 12em;
 	border-right: 0; 
 	border-left: 0;
@@ -92,7 +93,7 @@ a
 
 .searchinput::placeholder
 {
-	font-family: "raleway", sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-size: 1em;
 	font-weight: bold;
 	color: #000;
@@ -100,7 +101,7 @@ a
 
 .searchbutton
 {
-	font-family: "raleway", sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-size: 1em;
 	background-color: #0065FC;
 	color: white; 
@@ -113,34 +114,35 @@ a
 }
 /*Filtres*/ 
 
-.filtercontainer 
+.filterContainer 
 {
 	display: flex;
 	margin-top: 2em; 
 }
-.filterheader 
+.filterHeader 
 {
 	font-size: 0.8em;
 	margin-right: 1em; 
 
 } 
-.filteritem 
+.filterItem 
 {
 	display: flex;
 	align-items: center;
-	margin-right: 71em;
-	border: 3px solid #d9d9d9;
+	margin-right: 2em;
+	border: 2px solid #d9d9d9;
 	border-radius: 2em;
 	margin-bottom: 1em; 
 	cursor: pointer; 
+	transition-duration: 0.1s;
 	font-weight: bold;
 }
-.filteritem:hover 
+.filterItem:hover 
 {
-	transform: scale3d(1);
+	transform: scale(1.1);
 
 } 
-.filtersicon
+.filtersIcon
 {
 	background-color: #deebff; 
 	border-radius: 100%; 
@@ -151,12 +153,12 @@ a
 	justify-content: center;
 	margin: -2px;
 } 
-.filterinfo
+.filterInfo
 {
 	font-size: 0.8em;
 	display: flex;
 }
-.filterinfowrap
+.filterInfoWrap
 {
 	background-color: white;
 	border-radius: 100%;
@@ -167,7 +169,7 @@ a
 	align-items: center;
 	justify-content: center;
 }
-.filterinfotext
+.filterInfoText
 {
 	display: flex;
 	margin-left: 0.5em;
@@ -175,7 +177,7 @@ a
 	align-self: center;
 }
 
-.filteritemtext 
+.filterItemText 
 {
 	display: flex;
 	margin: 0 1em;
@@ -266,12 +268,17 @@ height: 100%;
 
 /*Les plus populaires*/
 
+.hostingpopular {
+	padding-top: 3em;
+	width: 433px;
+	height: 496.6px;
+}
 .hostingpopular
 {
 	display: grid;
 	row-gap: 2em;
 	align-items: start;
-	grid-template-rows: auto;
+	grid-template-rows: auto repeat(3, 1fr);
 }
 
 .hostingpopulartitle
@@ -313,6 +320,11 @@ height: 100%;
 	flex-direction: column;
 }
 
+.petitespace
+{
+	flex: 1;
+}
+
 /*Activites*/ 
 
 .sectionactivites
@@ -336,7 +348,7 @@ height: 100%;
 	display: flex;
 	flex-direction: column;
 	border-radius: 1em;
-	box-shadow: 0 0 10px; 
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 	height: 100%;
 	width: 100%;
 }
@@ -413,14 +425,6 @@ height: 100%;
 
 
 
-
-
-
-
-
-
-
-
 /* Footer*/
 .footer
 {
@@ -433,7 +437,7 @@ height: 100%;
 {
 	display: flex;
 	flex-direction: column;
-	width: 35%;
+	width: 34%;
 	margin-left: 1em;
 }
 
@@ -441,14 +445,14 @@ height: 100%;
 {
 display: flex;
 flex-direction: column;
-width: 35%;
+width: 34%;
 }
 
 .assistance
 {
 	display: flex;
 	flex-direction: column;
-	width: 35%
+	width: 34%
 }
 
 .flexitem 
