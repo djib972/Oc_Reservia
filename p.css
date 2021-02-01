@@ -87,7 +87,7 @@ a
 	border-left: 0;
 	border-top: #f2f2f2 1px solid;
 	border-bottom: #f2f2f2 1px solid;
-	padding: 0 1em; 
+	padding: 14px 1em; 
 	box-sizing: border-box;
 }
 
@@ -108,7 +108,7 @@ a
 	font-weight: bold;
 	border: none;
 	border-radius: 0 1em 1em 0;
-	padding: 0 1.5em;
+	padding: 14px 1.5em;
 	cursor: pointer;
 
 }
