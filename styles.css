@@ -6,9 +6,6 @@ body
 	justify-content: center;
 }
 
-#container {
-	max-width: 1280px;
-}
 
 a
 {
@@ -463,30 +460,6 @@ width: 34%;
 .flexitem 
 {
 	margin-bottom: 1em;
-}
-
-@media screen and (max-width: 920px)
-{
-	.filterContainer {
-		flex-direction: column;
-	}
-	.filterItem {
-		display: flex;
-		align-items: center;
-		margin-right: 38em;
-		border: 2px solid #d9d9d9;
-		border-radius: 2em;
-		margin-bottom: 1em;
-		cursor: pointer;
-		transition-duration: 0.1s;
-		font-weight: bold;
-	}
-	.hosting {
-		display: contents;
-		column-gap: 2em;
-		grid-template-columns: 2fr 1fr;
-		margin-top: 2em;
-	}
 }
 
 
