@@ -6,7 +6,9 @@ body
 	justify-content: center;
 }
 
-
+#container {
+	max-width: 1280px;
+}
 a
 {
 	text-decoration: none;
@@ -462,5 +464,251 @@ width: 34%;
 	margin-bottom: 1em;
 }
 
+@media screen and (max-width: 449px) {
+    body {
+		margin: 0;
+		height: 96px;
+		width: 357px;
+	}
 
+	.header {
+		display: grid;
+		grid-template-columns: 1fr 1fr; 
+		grid-template-rows: 1fr 1fr;
+		width: 412px;
+		height: 96px;
+		position: relative;
+		margin: 2em;
+	}
+	#container {
+		width: 412px;
+		height: 148px;
+	}
+	.headerlogo {
+		padding-left: 0px; 
+	}
+	.headerlogo {
+		padding-left: 0;
+	}
+	.headernav {
+		width: 296px;
+		height: 96px;
+		margin-left: 32px;
+		margin-right: 32px;
+
+	}
+
+	.hosting {
+		width: 461px; 
+		height: 2061px;
+	}
+
+	.headernavitem:nth-child(2) {
+		padding: 1em 0 0 3em; 
+		padding-left: 1em;
+	}
+	.searchbutton {
+		display: none;
+	}
+
+	.searchbuttonmobile {
+		display: inline-flex;
+		align-items: center;
+		font-family: "Raleway", sans-serif; 
+		font-size: 1em; 
+		background-color: #0065FC; 
+		color: white;
+		font-weight: bold;
+		border: none;
+		border-radius: 0 1em 1em 0; 
+		padding: 0 1.5em; 
+		cursor: pointer;
+	}
+	.headernavItem:nth-child(2):hover,
+    .headernavItem:nth-child(3):hover {
+            border-top: none;
+            border-bottom: 2px solid #0065FC;
+        }
+        /*Hebergement */
+        
+        .headernavItem:nth-child(2) {
+            grid-area: 2 / 1 / 2 / 1;
+            border-bottom: 2px solid #f2f2f2;
+        }
+        /*ActivitÃ©s */
+        
+        .headernavItem:nth-child(3) {
+            border-bottom: 2px solid #f2f2f2;
+        }
+        /*S'inscrire */
+        
+        .headernavItem:nth-child(4) {
+            grid-area: 1 / 2 / 1 / 2;
+            padding-right: 1em;
+            margin-right: 0;
+        }
+        
+        .headernavItem:nth-child(4):hover {
+            border-top: none;
+            transform: scale(1.1);
+        }
+        /*Recherche */
+        
+        .recherchewrap {
+            margin: 2em;
+        }
+        
+        .searchheader {
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+        }
+        
+        .searchform {
+            width: 100%;
+        }
+        
+        .searchinput {
+            min-width: 5em;
+        }
+        /*Filtres */
+        
+        .filterContainer {
+            /* max-width: 100%;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: flex-start; */
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            max-width: 100%;
+            position: relative;
+            /* margin: 2em; */
+        }
+        
+        .filterHeader {
+            /* flex: 0 0 100%; */
+            grid-column: 1 / 3;
+        }
+        
+        .filterItem:nth-child(2) {
+            /* flex: 0 0 50%; */
+            grid-column: 1 / 2;
+            margin-right: 0.5em;
+        }
+        
+        .filterItem:nth-child(3) {
+            /* flex: 0 0 50%; */
+            grid-column: 2/3;
+            margin-right: 0;
+        }
+        
+        .filterItem:nth-child(4) {
+            /* flex: 0 0 100%; */
+            grid-column: 1/3;
+            max-width: 70%;
+        }
+        
+        .filterItem:nth-child(5) {
+            /* flex: 0 0 100%; */
+            grid-column: 1/3;
+            max-width: 70%;
+        }
+        /*Main*/
+        
+        .hosting {
+            grid-template-columns: auto;
+            row-gap: 2em;
+            width: 100%;
+            box-sizing: border-box;
+            border-radius: 0;
+        }
+        
+        .hostingMain {
+            background-color: #fff;
+            /*Eliminer bords sur le cÃ´tÃ© */
+        }
+        
+        .hostingMain {
+            grid-template-columns: 1fr;
+        }
+        
+        .hostingMain .hostingCard {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        
+        .hostingPopular {
+            grid-area: 1 / 1 / 1 / 1;
+            border-radius: 0;
+        }
+        /*Activites*/
+        
+        .sectionActivites {
+            margin: 1em 2em 0 2em;
+            grid-template-columns: 100%;
+            /*Alignement Ã©gal entres les cartes */
+            grid-template-rows: auto 12em 12em 12em 12em 12em 12em;
+        }
+        
+        .activitesHeader {
+            grid-column: 1/-1;
+            grid-row: 1 / 2;
+            box-sizing: border-box;
+        }
+        
+		.vieuxportimggrd,
+		.calanquesimggrd
+        .pomeguesimg {
+            height: 70%;
+        }
+        
+        #img1,
+        #img2,
+        #img3,
+        #img4,
+        #img5,
+        #img6 {
+            grid-column: 1/ 2;
+        }
+        
+        #img1 {
+            grid-row: 2 / 3;
+        }
+        
+        #img2 {
+            grid-row: 3/4;
+        }
+        
+        #img3 {
+            grid-row: 4/5;
+        }
+        
+        #img4 {
+            grid-row: 5/6;
+        }
+        
+        #img5 {
+            grid-row: 6/7;
+        }
+        
+        #img6 {
+            grid-row: 7 / 8;
+        }
+        /* Footer */
+        
+        .footer {
+            flex-direction: column;
+            padding: 2em;
+            margin-top: 2em;
+        }
+        
+        .apropos {
+            margin-left: 0;
+        }
+        
+        .centreaide,
+        .nouscontacter {
+            width: 12em;
+        }
+}
 
