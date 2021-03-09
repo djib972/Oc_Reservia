@@ -647,7 +647,7 @@ width: 34%;
             margin: 1em 2em 0 2em;
             grid-template-columns: 100%;
             /*Alignement Ã©gal entres les cartes */
-            grid-template-rows: auto 12em 12em 12em 12em 12em 12em;
+            grid-template-rows: auto 9em 9em 9em 9em 9em 9em;
         }
         
         .activitesHeader {
