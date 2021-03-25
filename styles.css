@@ -27,16 +27,20 @@ a
 }
 
 /*Header*/
+}
 .header
 {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	margin-top: 2em;
 }
 .headerlogo
 {
 	height: 3em;
-	margin-right: auto;
+    margin-right: 522px;
+    width: 103px;
+    margin: 0em 36em -1em 0em;
+    
 }
 
 /* Header : Activités, s'inscrire*/ 
@@ -116,6 +120,9 @@ a
 	padding: 14px 1.5em;
 	cursor: pointer;
 
+}
+.searchbuttonmobile {
+    display: none;
 }
 /*Filtres*/ 
 
@@ -464,19 +471,16 @@ width: 34%;
 	margin-bottom: 1em;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 450px) {
     body {
 		margin: 0;
-		height: 96px;
-		width: 357px;
 	}
 
 	.header {
 		display: grid;
 		grid-template-columns: 1fr 1fr; 
 		grid-template-rows: 1fr 1fr;
-		width: 412px;
-		height: 96px;
+		width: max-content;
 		position: relative;
 		margin: 2em;
 	}
@@ -485,22 +489,14 @@ width: 34%;
 		height: 148px;
 	}
 	.headerlogo {
-		padding-left: 0px; 
-	}
+        padding-left: 1em; 
+        margin: 0em 6em 1em 0em;
+    }
+    .header {
+        width: max-content;
+    }
 	.headerlogo {
 		padding-left: 0;
-	}
-	.headernav {
-		width: 296px;
-		height: 96px;
-		margin-left: 32px;
-		margin-right: 32px;
-
-	}
-
-	.hosting {
-		width: 461px; 
-		height: 2061px;
 	}
 
 	.headernavitem:nth-child(2) {
@@ -521,34 +517,34 @@ width: 34%;
 		font-weight: bold;
 		border: none;
 		border-radius: 0 1em 1em 0; 
-		padding: 0 1.5em; 
+		padding: 13px 1.5em; 
 		cursor: pointer;
 	}
-	.headernavItem:nth-child(2):hover,
-    .headernavItem:nth-child(3):hover {
+	.headernavitem:nth-child(2):hover,
+    .headernavitem:nth-child(3):hover {
             border-top: none;
             border-bottom: 2px solid #0065FC;
         }
         /*Hebergement */
         
-        .headernavItem:nth-child(2) {
+        .headernavitem:nth-child(2) {
             grid-area: 2 / 1 / 2 / 1;
             border-bottom: 2px solid #f2f2f2;
         }
         /*ActivitÃ©s */
         
-        .headernavItem:nth-child(3) {
+        .headernavitem:nth-child(3) {
             border-bottom: 2px solid #f2f2f2;
         }
         /*S'inscrire */
         
-        .headernavItem:nth-child(4) {
+        .headernavitem:nth-child(4) {
             grid-area: 1 / 2 / 1 / 2;
             padding-right: 1em;
             margin-right: 0;
         }
         
-        .headernavItem:nth-child(4):hover {
+        .headernavitem:nth-child(4):hover {
             border-top: none;
             transform: scale(1.1);
         }
@@ -643,21 +639,24 @@ width: 34%;
         }
         /*Activites*/
         
-        .sectionActivites {
+        .sectionactivites {
             margin: 1em 2em 0 2em;
             grid-template-columns: 100%;
             /*Alignement Ã©gal entres les cartes */
-            grid-template-rows: auto 9em 9em 9em 9em 9em 9em;
+            grid-template-rows: auto 12em 12em 12em 12em 12em 12em;
         }
         
-        .activitesHeader {
+        .activitesheader {
             grid-column: 1/-1;
-            grid-row: 1 / 2;
+            grid-row: 1/2;
             box-sizing: border-box;
         }
         
 		.vieuxportimggrd,
-		.calanquesimggrd
+        .calanquesimggrd  {
+            height: 70%;
+        }
+
         .pomeguesimg {
             height: 70%;
         }
@@ -668,11 +667,11 @@ width: 34%;
         #img4,
         #img5,
         #img6 {
-            grid-column: 1/ 2;
+            grid-column: 1/2;
         }
         
         #img1 {
-            grid-row: 2 / 3;
+            grid-row: 2/3;
         }
         
         #img2 {
@@ -692,7 +691,7 @@ width: 34%;
         }
         
         #img6 {
-            grid-row: 7 / 8;
+            grid-row: 7/8;
         }
         /* Footer */
         
@@ -704,11 +703,14 @@ width: 34%;
         
         .apropos {
             margin-left: 0;
+            width: 64%;
         }
         
-        .centreaide,
+        .centreaide {
+            width: 50%;
+        }
         .nouscontacter {
-            width: 12em;
+            width: 66%;
         }
 }
 
